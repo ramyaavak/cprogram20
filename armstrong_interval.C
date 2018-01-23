@@ -12,8 +12,8 @@ int main()
       while(temp!=0)
       {
           rem=(temp%10);
-          num+=rem*rem*rem;
-          temp/=10;
+          num=num+rem*rem*rem;
+          temp=temp/10;
       }
       if(i==num)
       {
